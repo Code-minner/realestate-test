@@ -11,7 +11,7 @@ import {
 } from './src/screens/Auth';
 import HomeScreen from './src/screens/Home/HomeScreen';
 import { useAuthStore } from './src/stores/authStore';
-import SessionManager from './src/components/SessionManager.tsx'; // Import SessionManager
+import SessionManager from './src/components/SessionManager'; // Import SessionManager
 
 type AppState = 'splash' | 'onboarding' | 'authChoice' | 'userAuth' | 'agentAuth' | 'main';
 
